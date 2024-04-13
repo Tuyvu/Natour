@@ -1,0 +1,124 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Natours</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Natours.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light mx-3 bd-navbar ">
+            <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                   
+                    <svg width="30" height="24" class="d-inline-block align-text-top" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="#63E6BE" d="M272 96c-78.6 0-145.1 51.5-167.7 122.5c33.6-17 71.5-26.5 111.7-26.5h88c8.8 0 16 7.2 16 16s-7.2 16-16 16H288 216s0 0 0 0c-16.6 0-32.7 1.9-48.3 5.4c-25.9 5.9-49.9 16.4-71.4 30.7c0 0 0 0 0 0C38.3 298.8 0 364.9 0 440v16c0 13.3 10.7 24 24 24s24-10.7 24-24V440c0-48.7 20.7-92.5 53.8-123.2C121.6 392.3 190.3 448 272 448l1 0c132.1-.7 239-130.9 239-291.4c0-42.6-7.5-83.1-21.1-119.6c-2.6-6.9-12.7-6.6-16.2-.1C455.9 72.1 418.7 96 376 96L272 96z" /></svg>
+                    </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+							<a class="nav-link active" aria-current="page" asp-controller="Home" asp-action="index">Home</a>
+                        </li>
+                        <li class="nav-item">
+							<a class="nav-link" asp-controller="Home" asp-action="Weather">Weather</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+								Tour
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+							<a class="nav-link" asp-controller="Home" asp-action="Hotel" tabindex="-1">Hotel</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="Home" asp-action="About" tabindex="-1">About</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+	<footer>
+		<div class="footer-top" style="background:#eee;padding:50px 0;">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-5">
+						<h5><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">THÔNG TIN</font></font></h5>
+						<p style="margin-bottom:20px;">
+							<strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Trụ sở chính:</font></font></strong><br><font style="vertical-align: inherit;">
+								<font style="vertical-align: inherit;">
+									Công ty Cổ phần Dịch vụ Du lịch UTC
+								</font>
+							</font><br><font style="vertical-align: inherit;">
+								<font style="vertical-align: inherit;">
+									Số 3, Cầu Giấy, Hà Nội
+								</font>
+							</font><br>
+							<a href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">inbound@UTCTour.com</font></font></a>
+						</p>
+						<p>
+							<a href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Điều khoản và điều kiện</font></font></a>
+						</p>
+						<!-- <p><strong>Travel Service Center:</strong><br>
+											BenThanh Tourist Service Corporation<br>
+											70 Ly Tu Trong St., Ben Thanh Ward, District 1, HCM City</p> -->
+					</div>
+					<div class="col-md-7 hidden-xs">
+						<div class="row">
+							<div class="col-md-3">
+								<h5><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ĐIỂM ĐẾN</font></font></h5>
+								<p><a href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Việt Nam</font></font></a></p>
+								<p><a href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Nước Lào</font></font></a></p>
+								<p><a href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Campuchia</font></font></a></p>
+								<p><a href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">nước Thái Lan</font></font></a></p>
+							</div>
+							<div class="col-md-3">
+								<h5>&nbsp;</h5>
+								<p><a href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Singapore</font></font></a></p>
+								<p><a href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Malaysia</font></font></a></p>
+								<p><a href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Myanmar</font></font></a></p>
+								<p><a href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Philippin</font></font></a></p>
+							</div>
+							<div class="col-md-6">
+								<h5><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">LIÊN KẾT HỮU ÍCH</font></font></h5>
+								<div style="margin-bottom: 20px;">
+									<a href="https://www.facebook.com/btt.triptovietnam"><img src="https://triptovietnam.com.vn/themes/tourinbound/assets/img/facebook.png" alt="Facebook"></a> &nbsp;
+									<a href=""><img src="https://triptovietnam.com.vn/themes/tourinbound/assets/img/youtube.png" alt="Youtube"></a> &nbsp;
+									<a href="#twitter"><img src="https://triptovietnam.com.vn/themes/tourinbound/assets/img/twitter.png" alt="Twitter"></a> &nbsp;
+									<a href="https://www.tripadvisor.com/Attraction_Review-g293925-d17220125-Reviews-Ben_Thanh_Tourist-Ho_Chi_Minh_City.html"><img src="https://triptovietnam.com.vn/themes/tourinbound/assets/img/tripadvisor.png" alt="Cố vấn chuyến đi" style="background:#fff;"></a>
+								</div>
+								<h5><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">THÀNH VIÊN CHÍNH THỨC</font></font></h5>
+								<img src="https://triptovietnam.com.vn/themes/tourinbound/assets/img/pata.png" alt="Thành viên chính thức Pata" style="background:#3BBDFB; padding: 10px; border-radius: 3px;">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
