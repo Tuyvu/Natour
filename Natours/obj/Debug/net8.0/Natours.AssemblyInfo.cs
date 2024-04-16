@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Natours")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+58c9f590d62459c3458ddbe3c77e1c62dc6a9893")]
 [assembly: System.Reflection.AssemblyProductAttribute("Natours")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Natours")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

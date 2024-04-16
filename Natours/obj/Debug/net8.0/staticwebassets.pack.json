@@ -9,12 +9,1480 @@
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\Italic.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\Italic.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\agenda.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\agenda.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\alarm-clock.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\alarm-clock.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\alert.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\alert.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\align-center.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\align-center.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\align-justify.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\align-justify.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\align-left.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\align-left.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\align-right.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\align-right.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\anchor.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\anchor.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\android.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\android.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\angle-double-down.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\angle-double-down.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\angle-double-left.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\angle-double-left.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\angle-double-right.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\angle-double-right.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\angle-double-up.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\angle-double-up.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\angle-down.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\angle-down.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\angle-left.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\angle-left.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\angle-right.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\angle-right.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\angle-up.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\angle-up.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\announcement.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\announcement.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\apple.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\apple.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\archive.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\archive.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\arrow-circle-down.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\arrow-circle-down.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\arrow-circle-left.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\arrow-circle-left.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\arrow-circle-right.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\arrow-circle-right.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\arrow-circle-up.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\arrow-circle-up.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\arrow-down.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\arrow-down.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\arrow-left.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\arrow-left.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\arrow-right.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\arrow-right.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\arrow-top-left.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\arrow-top-left.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\arrow-top-right.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\arrow-top-right.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\arrow-up.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\arrow-up.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\arrow.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\arrow.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\arrows-corner.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\arrows-corner.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\arrows-horizontal.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\arrows-horizontal.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\arrows-vertical.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\arrows-vertical.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\back-left.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\back-left.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\back-right.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\back-right.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\bag.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\bag.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\bar-chart-alt.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\bar-chart-alt.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\bar-chart.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\bar-chart.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\basketball.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\basketball.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\bell.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\bell.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\blackboard.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\blackboard.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\bolt-alt.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\bolt-alt.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\bolt.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\bolt.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\book.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\book.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\bookmark-alt.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\bookmark-alt.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\bookmark.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\bookmark.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\briefcase.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\briefcase.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\brush-alt.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\brush-alt.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\brush.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\brush.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\calendar.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\calendar.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\camera.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\camera.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\car.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\car.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\check-box.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\check-box.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\check.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\check.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\clip.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\clip.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\clipboard.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\clipboard.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\close.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\close.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\cloud-down.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\cloud-down.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\cloud-up.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\cloud-up.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\cloud.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\cloud.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\comment-alt.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\comment-alt.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\comment.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\comment.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\comments-smiley.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\comments-smiley.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\comments.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\comments.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\control-backward.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\control-backward.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\control-eject.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\control-eject.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\control-forward.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\control-forward.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\control-pause.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\control-pause.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\control-play.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\control-play.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\control-record.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\control-record.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\control-shuffle.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\control-shuffle.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\control-skip-backward.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\control-skip-backward.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\control-skip-forward.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\control-skip-forward.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\control-stop.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\control-stop.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\credit-card.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\credit-card.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\crown.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\crown.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\css3.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\css3.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\cup.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\cup.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\cut.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\cut.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\dashboard.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\dashboard.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\desktop.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\desktop.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\direction-alt.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\direction-alt.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\direction.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\direction.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\download.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\download.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\dribbble.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\dribbble.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\dropbox-alt.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\dropbox-alt.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\dropbox.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\dropbox.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\drupal.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\drupal.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\email.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\email.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\envelope.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\envelope.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\eraser.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\eraser.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\exchange-vertical.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\exchange-vertical.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\export.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\export.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\eye.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\eye.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\face-sad.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\face-sad.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\face-smile.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\face-smile.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\facebook.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\facebook.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\file.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\file.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\files.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\files.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\filter.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\filter.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\flag-alt-2.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\flag-alt-2.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\flag-alt.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\flag-alt.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\flag.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\flag.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\flickr-alt.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\flickr-alt.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\flickr.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\flickr.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\folder.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\folder.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\fullscreen.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\fullscreen.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\gallery.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\gallery.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\game.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\game.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\gift.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\gift.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\github.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\github.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\google.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\google.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\hand-drag.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\hand-drag.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\hand-open.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\hand-open.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\hand-point-down.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\hand-point-down.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\hand-point-left.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\hand-point-left.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\hand-point-right.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\hand-point-right.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\hand-point-up.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\hand-point-up.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\hand-stop.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\hand-stop.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\harddrive.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\harddrive.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\harddrives.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\harddrives.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\headphone-alt.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\headphone-alt.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\headphone.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\headphone.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\heart-broken.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\heart-broken.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\heart.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\heart.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\help-alt.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\help-alt.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\help.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\help.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\home.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\home.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\html5.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\html5.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\hummer.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\hummer.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\id-badge.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\id-badge.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\image.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\image.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\import.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\import.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\infinite.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\infinite.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\info-alt.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\info-alt.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\info.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\info.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\ink-pen.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\ink-pen.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\instagram.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\instagram.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\joomla.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\joomla.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\jsfiddle.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\jsfiddle.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\key.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\key.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\layers-alt.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\layers-alt.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\layers.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\layers.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\layout-accordion-list.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\layout-accordion-list.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\layout-accordion-merged.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\layout-accordion-merged.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\layout-accordion-separated.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\layout-accordion-separated.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\layout-column2-alt.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\layout-column2-alt.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\layout-column2.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\layout-column2.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\layout-column3-alt.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\layout-column3-alt.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\layout-column3.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\layout-column3.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\layout-column4-alt.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\layout-column4-alt.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\layout-column4.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\layout-column4.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\layout-cta-btn-left.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\layout-cta-btn-left.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\layout-cta-btn-right.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\layout-cta-btn-right.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\layout-cta-center.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\layout-cta-center.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\layout-cta-left.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\layout-cta-left.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\layout-cta-right.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\layout-cta-right.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\layout-grid2-alt.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\layout-grid2-alt.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\layout-grid2-thumb.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\layout-grid2-thumb.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\layout-grid2.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\layout-grid2.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\layout-grid3-alt.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\layout-grid3-alt.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\layout-grid3.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\layout-grid3.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\layout-grid4-alt.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\layout-grid4-alt.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\layout-grid4.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\layout-grid4.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\layout-line-solid.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\layout-line-solid.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\layout-list-large-image.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\layout-list-large-image.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\layout-list-post.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\layout-list-post.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\layout-list-thumb-alt.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\layout-list-thumb-alt.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\layout-list-thumb.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\layout-list-thumb.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\layout-media-center-alt.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\layout-media-center-alt.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\layout-media-center.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\layout-media-center.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\layout-media-left-alt.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\layout-media-left-alt.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\layout-media-left.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\layout-media-left.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\layout-media-overlay-alt-2.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\layout-media-overlay-alt-2.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\layout-media-overlay-alt.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\layout-media-overlay-alt.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\layout-media-overlay.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\layout-media-overlay.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\layout-media-right-alt.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\layout-media-right-alt.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\layout-media-right.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\layout-media-right.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\layout-menu-full.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\layout-menu-full.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\layout-menu-separated.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\layout-menu-separated.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\layout-menu-v.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\layout-menu-v.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\layout-menu.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\layout-menu.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\layout-placeholder.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\layout-placeholder.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\layout-sidebar-2.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\layout-sidebar-2.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\layout-sidebar-left.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\layout-sidebar-left.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\layout-sidebar-none.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\layout-sidebar-none.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\layout-sidebar-right.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\layout-sidebar-right.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\layout-slider-alt.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\layout-slider-alt.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\layout-slider.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\layout-slider.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\layout-tab-min.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\layout-tab-min.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\layout-tab-v.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\layout-tab-v.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\layout-tab-window.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\layout-tab-window.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\layout-tab.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\layout-tab.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\layout-width-default-alt.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\layout-width-default-alt.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\layout-width-default.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\layout-width-default.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\layout-width-full.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\layout-width-full.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\layout.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\layout.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\light-bulb.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\light-bulb.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\line-dashed.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\line-dashed.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\line-dotted.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\line-dotted.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\line-double.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\line-double.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\link.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\link.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\linkedin.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\linkedin.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\linux.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\linux.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\list-ol.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\list-ol.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\list.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\list.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\location-arrow.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\location-arrow.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\location-pin.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\location-pin.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\lock.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\lock.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\loop.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\loop.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\magnet.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\magnet.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\map-alt.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\map-alt.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\map.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\map.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\marker-alt.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\marker-alt.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\marker.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\marker.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\medall-alt.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\medall-alt.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\medall.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\medall.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\menu-alt.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\menu-alt.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\menu.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\menu.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\microphone-alt.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\microphone-alt.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\microphone.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\microphone.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\microsoft-alt.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\microsoft-alt.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\microsoft.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\microsoft.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\minus.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\minus.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\mobile.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\mobile.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\money.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\money.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\more-alt.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\more-alt.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\more.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\more.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\mouse-alt.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\mouse-alt.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\mouse.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\mouse.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\music-alt.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\music-alt.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\music.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\music.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\na.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\na.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\new-window.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\new-window.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\notepad.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\notepad.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\package.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\package.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\paint-bucket.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\paint-bucket.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\paint-roller.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\paint-roller.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\palette.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\palette.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\panel.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\panel.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\paragraph.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\paragraph.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\pencil-alt.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\pencil-alt.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\pencil-alt2.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\pencil-alt2.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\pencil.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\pencil.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\pie-chart.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\pie-chart.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\pin-alt.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\pin-alt.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\pin.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\pin.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\pin2.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\pin2.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\pinterest-alt.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\pinterest-alt.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\pinterest.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\pinterest.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\plug.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\plug.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\plus.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\plus.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\power-off.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\power-off.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\printer.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\printer.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\pulse.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\pulse.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\quote-left.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\quote-left.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\quote-right.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\quote-right.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\receipt.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\receipt.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\reddit.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\reddit.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\reload.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\reload.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\rocket.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\rocket.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\rss-alt.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\rss-alt.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\rss.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\rss.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\ruler-alt-2.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\ruler-alt-2.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\ruler-alt.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\ruler-alt.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\ruler-pencil.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\ruler-pencil.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\ruler.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\ruler.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\save-alt.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\save-alt.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\save.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\save.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\search.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\search.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\server.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\server.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\settings.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\settings.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\share-alt.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\share-alt.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\share.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\share.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\sharethis-alt.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\sharethis-alt.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\sharethis.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\sharethis.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\shield.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\shield.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\shift-left-alt.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\shift-left-alt.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\shift-left.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\shift-left.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\shift-right-alt.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\shift-right-alt.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\shift-right.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\shift-right.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\shine.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\shine.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\shopping-cart-full.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\shopping-cart-full.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\shopping-cart.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\shopping-cart.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\shortcode.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\shortcode.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\signal.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\signal.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\skype.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\skype.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\slice.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\slice.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\smallcap.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\smallcap.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\soundcloud.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\soundcloud.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\split-h.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\split-h.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\split-v-alt.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\split-v-alt.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\split-v.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\split-v.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\spray.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\spray.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\stack-overflow.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\stack-overflow.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\stamp.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\stamp.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\star.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\star.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\stats-down.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\stats-down.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\stats-up.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\stats-up.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\support.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\support.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\tablet.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\tablet.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\tag.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\tag.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\target.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\target.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\text.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\text.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\themify-favicon-alt.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\themify-favicon-alt.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\themify-favicon.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\themify-favicon.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\themify-logo.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\themify-logo.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\thought.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\thought.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\thumb-down.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\thumb-down.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\thumb-up.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\thumb-up.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\ticket.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\ticket.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\time.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\time.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\timer.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\timer.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\trash.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\trash.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\trello.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\trello.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\truck.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\truck.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\tumblr-alt.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\tumblr-alt.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\tumblr.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\tumblr.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\twitter-alt.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\twitter-alt.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\twitter.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\twitter.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\underline.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\underline.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\unlink.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\unlink.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\unlock.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\unlock.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\upload.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\upload.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\uppercase.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\uppercase.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\user.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\user.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\vector.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\vector.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\video-camera.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\video-camera.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\video-clapper.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\video-clapper.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\view-grid.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\view-grid.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\view-list-alt.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\view-list-alt.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\view-list.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\view-list.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\vimeo-alt.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\vimeo-alt.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\vimeo.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\vimeo.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\volume.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\volume.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\wallet.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\wallet.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\wand.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\wand.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\wheelchair.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\wheelchair.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\widget-alt.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\widget-alt.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\widget.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\widget.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\widgetized.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\widgetized.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\window.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\window.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\wordpress.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\wordpress.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\world.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\world.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\write.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\write.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\yahoo.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\yahoo.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\youtube.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\youtube.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\zip.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\zip.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\zoom-in.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\zoom-in.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\SVG\\zoom-out.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\SVG\\zoom-out.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\Themify IconFonts 5-23-2014.json",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\Themify IconFonts 5-23-2014.json"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\demo-files\\demo.css",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\demo-files\\demo.css"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\fonts\\themify.eot",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\fonts\\themify.eot"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\fonts\\themify.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\fonts\\themify.svg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\fonts\\themify.ttf",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\fonts\\themify.ttf"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\fonts\\themify.woff",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\fonts\\themify.woff"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\ie7\\ie7.css",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\ie7\\ie7.css"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\ie7\\ie7.js",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\ie7\\ie7.js"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\index.html",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\index.html"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\readme.txt",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\readme.txt"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\themify-icons\\themify-icons.css",
+      "PackagePath": "staticwebassets\\css\\themify-icons\\themify-icons.css"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\weather.css",
+      "PackagePath": "staticwebassets\\css\\weather.css"
+    },
+    {
       "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\images\\background.jpg",
+      "PackagePath": "staticwebassets\\images\\background.jpg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\images\\weathericon.png",
+      "PackagePath": "staticwebassets\\images\\weathericon.png"
+    },
+    {
       "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\js\\weather.js",
+      "PackagePath": "staticwebassets\\js\\weather.js"
     },
     {
       "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\lib\\bootstrap\\LICENSE",

@@ -6,6 +6,7 @@
     <title>@ViewData["Title"] - Natours</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+	<link rel="stylesheet" href="~/css/themify-icons/themify-icons.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/Natours.styles.css" asp-append-version="true" />
 </head>
 <body>
@@ -49,11 +50,12 @@
                         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                         <button class="btn btn-outline-success" type="submit">Search</button>
                     </form>
+					<div class="mx-2 text-2xl ml-2 user-log"><a><i class="ti ti-user"></i></a></div>
                 </div>
             </div>
         </nav>
     </header>
-        <main role="main" class="pb-3">
+        <main role="main" class="pb-3 main">
             @RenderBody()
         </main>
     </div>
@@ -122,3 +124,118 @@
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
+
+<script>
+    $(document).on("click", ".user-log", function (e) {
+       
+        console.log("run");
+        $.ajax({
+            url: "/Home/Login",
+            success: function (response) {
+                var content = $(response).find('.login').html();
+                $("main.main").html(content);
+            }
+
+        });
+    });
+</script>
+<script>
+    $(document).on("click", ".createa", function (e) {
+
+        console.log("run");
+        $.ajax({
+            url: "/Home/Signup",
+            success: function (response) {
+                var content = $(response).find('.signup').html();
+                $("main.main").html(content);
+            }
+
+        });
+    });
+</script>
+<script>
+    $(document).on("click", ".Logini", function (e) {
+
+        console.log("run");
+        $.ajax({
+            url: "/Home/Login",
+            success: function (response) {
+                var content = $(response).find('.login').html();
+                $("main.main").html(content);
+            }
+
+        });
+    });
+</script>
+<script type="text/javascript">
+    $(document).on("click", ".btnRe", function (e) {
+        insertKhachHang();
+    });
+    function insertKhachHang() {
+        var MK = $("#txtMK").val();
+        var name = $("#txtKH").val();
+        var email = $("#txtEmail").val();
+        var phone = $("#txtSDT").val();
+        var id = email + phone;
+        var sendInfor = {
+            "MaKH": id,
+            "TenKH": name,
+            "SoDienThoai": phone,
+            "Email": email,
+            "MK": MK
+        };
+        $.ajax({
+            url: "http://127.0.0.1:5000/kh/add",
+            type: "POST",
+            contentType: "application/json",
+            dataType: "application/json",
+            data: JSON.stringify(sendInfor),
+            complete: function (data) {
+                alert("Thêm mới thành công");
+                console.log(data);
+            }
+        });
+    }
+
+</script>
+<script type="text/javascript">
+    $(document).on("click", ".btnLogin", function (e) {
+        console.log("run");
+        var kh = $("#txtlSDT").val();
+        var mk = $("#txtlMK").val();
+        var sendInfor = {
+            "MK": mk,
+            "SDT": kh // Thay đổi tên tham số từ "SoDienThoai" thành "SDT"
+        };
+        $.ajax({
+            url: 'http://127.0.0.1:5000/kh/findid/',
+            method: 'GET',
+            contentType: "application/json",
+            data: sendInfor, // Không cần sử dụng JSON.stringify()
+            error: function (xhr, status, error) {
+                console.log(error);
+            },
+            success: function (response) {
+                if (response.length > 0) {
+                    alert("Thành công");
+
+                    loadPage();
+                } else {
+                    alert("Mã khách hàng hoặc mật khẩu không đúng");
+                }
+            }
+        });
+    });
+    function loadPage() {
+        $.ajax({
+            url: "/Home/Index",
+            type: "GET",
+            success: function (response) {
+                var content = $(response).find('.indexmain').html();
+                $("main.main").html(content);
+            }
+        });
+
+    }
+</script>
+

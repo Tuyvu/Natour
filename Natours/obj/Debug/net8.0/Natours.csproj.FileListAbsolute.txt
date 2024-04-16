@@ -28,3 +28,4 @@ D:\ki2nam3\API\Natours\Natours\obj\Debug\net8.0\refint\Natours.dll
 D:\ki2nam3\API\Natours\Natours\obj\Debug\net8.0\Natours.pdb
 D:\ki2nam3\API\Natours\Natours\obj\Debug\net8.0\Natours.genruntimeconfig.cache
 D:\ki2nam3\API\Natours\Natours\obj\Debug\net8.0\ref\Natours.dll
+D:\ki2nam3\API\Natours\Natours\obj\Debug\net8.0\Natours.sourcelink.json
