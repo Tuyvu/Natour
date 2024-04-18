@@ -11,8 +11,16 @@ CREATE TABLE [dbo].[KhachHang](
 	[MK] [nvarchar](50)
 ) ON [PRIMARY]
 GO
-select * from KhachHang
+select * from [KhachHangActive]
+select * from KhachHangActive
+DELETE FROM KhachHangActive
+delete from KhachHangActive where SoDienThoai = '1'
 SELECT * FROM KhachHang WHERE SoDienThoai='1' AND MK='1'
+CREATE TABLE [dbo].[KhachHangActive](
+	[SoDienThoai] [nvarchar](20) NULL,
+	[MK] [nvarchar](50)
+) ON [PRIMARY]
+GO
 CREATE TABLE [dbo].[Tour](
 	[MaTour] [varchar](20) NOT NULL,
 	[TenTour] [nvarchar](255) NULL,
@@ -73,3 +81,5 @@ INSERT [dbo].[BangDat] ([MaDat], [MaKH], [MaTour], [SoLuongNguoi], [NgayDangKy])
 INSERT [dbo].[BangDat] ([MaDat], [MaKH], [MaTour], [SoLuongNguoi], [NgayDangKy]) VALUES (9, 2, 'HL02', 5, CAST(N'2024-04-13T00:00:00.000' AS DateTime))
 INSERT [dbo].[BangDat] ([MaDat], [MaKH], [MaTour], [SoLuongNguoi], [NgayDangKy]) VALUES (10, 5, 'HL01', 2, CAST(N'2024-04-12T00:00:00.000' AS DateTime))
 INSERT [dbo].[BangDat] ([MaDat], [MaKH], [MaTour], [SoLuongNguoi], [NgayDangKy]) VALUES (11, 3, 'HL01', 8, CAST(N'2024-04-15T00:00:00.000' AS DateTime))
+
+select * from Tour where TenTour like N'%Tour%'

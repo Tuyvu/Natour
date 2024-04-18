@@ -46,10 +46,10 @@
                             <a class="nav-link" asp-controller="Home" asp-action="About" tabindex="-1">About</a>
                         </li>
                     </ul>
-                    <form class="d-flex">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Search</button>
-                    </form>
+                    <div class="d-flex">
+                        <input id="search" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success btnSearch">Search</button>
+                    </div>
 					<div class="mx-2 text-2xl ml-2 user-log"><a><i class="ti ti-user"></i></a></div>
                 </div>
             </div>
@@ -117,25 +117,103 @@
 				</div>
 			</div>
 		</div>
-	</footer>
+	</footer> 
+    <!-- Modal -->
+    <div class="modal fade" id="profileModal" tabindex="-1" aria-labelledby="profileModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header bg-primary text-white">
+                    <h5 class="modal-title" id="profileModalLabel">David Williams Profile</h5>
+                    <button type="button" class="close text-white" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <!-- Additional content -->
+                    <section class="py-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-md-6">
+                                    <div class="card border-0 shadow-sm">
+                                        <div class="card-body text-center">
+                                            <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-chat/ava2-bg.webp"
+                                                 class="rounded-circle img-fluid mb-3" style="width: 100px;" alt="Profile Picture" />
+                                            <h4 class="mb-2 NameUser"></h4>                                        
+                                            <button type="button" class="btn btn-primary btn-lg btn-rounded mb-4 btnlogout">Logout</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- End of additional content -->
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
-
+<script type="text/javascript">
+    $(document).on("click", ".btnSearch", function (e) {
+        FindTour();
+    });
+    function FindTour() {
+        var MK = $("#search").val();
+        $.ajax({
+            url: "http://127.0.0.1:5000/kh/getallTour/" + MK,
+            type: "GET",
+            contentType: "application/json",
+            dataType: "json", // Thay đổi thành kiểu dữ liệu json
+            complete: function (response) {
+                alert("search thành công");
+                console.log(response.responseJSON[0]); // Lấy ra phần tử đầu tiên
+            }
+        });
+    }
+</script>
 <script>
+    var x,y
     $(document).on("click", ".user-log", function (e) {
-       
+
         console.log("run");
         $.ajax({
-            url: "/Home/Login",
+            url: 'http://127.0.0.1:5000/kh/getallactive',
+            method: 'GET',
+            contentType: 'json',
+            dataType: 'json',
             success: function (response) {
-                var content = $(response).find('.login').html();
-                $("main.main").html(content);
+                // Kiểm tra xem có dữ liệu trả về không
+                if (response.length > 0) {
+                    x = response[0].SoDienThoai;
+                    console.log(x);
+                    $(".NameUser").text(x);
+                    $("#profileModal").modal('show');
+                } else {
+                    login()
+                }
             }
-
+        });
+    });
+    $(document).on("click", ".btnlogout", function (e) {
+        console.log("run");
+        $.ajax({
+            url: "http://127.0.0.1:5000/kh/del/" + x,
+            method: 'DELETE',
+            contentType: "application/json",
+            dataType: "application/json",
+            complete: function (data) {
+                alert("Xóa thành công");
+                $("#profileModal").modal('hide');
+                login()
+            }
         });
     });
 </script>
@@ -149,7 +227,6 @@
                 var content = $(response).find('.signup').html();
                 $("main.main").html(content);
             }
-
         });
     });
 </script>
@@ -157,15 +234,17 @@
     $(document).on("click", ".Logini", function (e) {
 
         console.log("run");
+        login()
+    });
+    function login() {
         $.ajax({
             url: "/Home/Login",
             success: function (response) {
                 var content = $(response).find('.login').html();
                 $("main.main").html(content);
             }
-
         });
-    });
+    }
 </script>
 <script type="text/javascript">
     $(document).on("click", ".btnRe", function (e) {
@@ -205,20 +284,20 @@
         var mk = $("#txtlMK").val();
         var sendInfor = {
             "MK": mk,
-            "SDT": kh // Thay đổi tên tham số từ "SoDienThoai" thành "SDT"
+            "SDT": kh
         };
         $.ajax({
             url: 'http://127.0.0.1:5000/kh/findid/',
             method: 'GET',
             contentType: "application/json",
-            data: sendInfor, // Không cần sử dụng JSON.stringify()
+            data: sendInfor,
             error: function (xhr, status, error) {
                 console.log(error);
             },
             success: function (response) {
                 if (response.length > 0) {
                     alert("Thành công");
-
+                    addactive(sendInfor)
                     loadPage();
                 } else {
                     alert("Mã khách hàng hoặc mật khẩu không đúng");
@@ -235,7 +314,18 @@
                 $("main.main").html(content);
             }
         });
-
+    }
+    function addactive(sendInfor) {
+        $.ajax({
+            url: "http://127.0.0.1:5000/kh/addactive",
+            type: "POST",
+            contentType: "application/json",
+            dataType: "application/json",
+            data: JSON.stringify(sendInfor),
+            complete: function (data) {
+                alert("Thêm mới thành công");
+            }
+        });
     }
 </script>
 

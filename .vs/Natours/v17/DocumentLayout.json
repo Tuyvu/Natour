@@ -7,24 +7,28 @@
       "RelativeMoniker": "D:0:0:{6BB0606E-541F-49D3-AA50-08AE5D23DCFE}|Natours\\Natours.csproj|solutionrelative:natours\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6BB0606E-541F-49D3-AA50-08AE5D23DCFE}|Natours\\Natours.csproj|d:\\ki2nam3\\api\\natours\\natours\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6BB0606E-541F-49D3-AA50-08AE5D23DCFE}|Natours\\Natours.csproj|solutionrelative:natours\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6BB0606E-541F-49D3-AA50-08AE5D23DCFE}|Natours\\Natours.csproj|d:\\ki2nam3\\api\\natours\\natours\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6BB0606E-541F-49D3-AA50-08AE5D23DCFE}|Natours\\Natours.csproj|solutionrelative:natours\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6BB0606E-541F-49D3-AA50-08AE5D23DCFE}|Natours\\Natours.csproj|d:\\ki2nam3\\api\\natours\\natours\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{6BB0606E-541F-49D3-AA50-08AE5D23DCFE}|Natours\\Natours.csproj|solutionrelative:natours\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB0606E-541F-49D3-AA50-08AE5D23DCFE}|Natours\\Natours.csproj|d:\\ki2nam3\\api\\natours\\natours\\views\\home\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BB0606E-541F-49D3-AA50-08AE5D23DCFE}|Natours\\Natours.csproj|solutionrelative:natours\\views\\home\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6BB0606E-541F-49D3-AA50-08AE5D23DCFE}|Natours\\Natours.csproj|d:\\ki2nam3\\api\\natours\\natours\\views\\home\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{6BB0606E-541F-49D3-AA50-08AE5D23DCFE}|Natours\\Natours.csproj|solutionrelative:natours\\views\\home\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{6BB0606E-541F-49D3-AA50-08AE5D23DCFE}|Natours\\Natours.csproj|d:\\ki2nam3\\api\\natours\\natours\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BB0606E-541F-49D3-AA50-08AE5D23DCFE}|Natours\\Natours.csproj|solutionrelative:natours\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6BB0606E-541F-49D3-AA50-08AE5D23DCFE}|Natours\\Natours.csproj|d:\\ki2nam3\\api\\natours\\natours\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6BB0606E-541F-49D3-AA50-08AE5D23DCFE}|Natours\\Natours.csproj|solutionrelative:natours\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB0606E-541F-49D3-AA50-08AE5D23DCFE}|Natours\\Natours.csproj|d:\\ki2nam3\\api\\natours\\natours\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BB0606E-541F-49D3-AA50-08AE5D23DCFE}|Natours\\Natours.csproj|solutionrelative:natours\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6BB0606E-541F-49D3-AA50-08AE5D23DCFE}|Natours\\Natours.csproj|d:\\ki2nam3\\api\\natours\\natours\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -42,11 +46,23 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Profile.cshtml",
+              "DocumentMoniker": "D:\\ki2nam3\\API\\Natours\\Natours\\Views\\Home\\Profile.cshtml",
+              "RelativeDocumentMoniker": "Natours\\Views\\Home\\Profile.cshtml",
+              "ToolTip": "D:\\ki2nam3\\API\\Natours\\Natours\\Views\\Home\\Profile.cshtml",
+              "RelativeToolTip": "Natours\\Views\\Home\\Profile.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-17T01:13:00.888Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\ki2nam3\\API\\Natours\\Natours\\Program.cs",
               "RelativeDocumentMoniker": "Natours\\Program.cs",
@@ -58,19 +74,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Login.cshtml",
               "DocumentMoniker": "D:\\ki2nam3\\API\\Natours\\Natours\\Views\\Home\\Login.cshtml",
               "RelativeDocumentMoniker": "Natours\\Views\\Home\\Login.cshtml",
               "ToolTip": "D:\\ki2nam3\\API\\Natours\\Natours\\Views\\Home\\Login.cshtml",
               "RelativeToolTip": "Natours\\Views\\Home\\Login.cshtml",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABwAAAAXAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAABNAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-04-16T06:48:43.579Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Signup.cshtml",
               "DocumentMoniker": "D:\\ki2nam3\\API\\Natours\\Natours\\Views\\Home\\Signup.cshtml",
               "RelativeDocumentMoniker": "Natours\\Views\\Home\\Signup.cshtml",
@@ -82,7 +98,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "About.cshtml",
               "DocumentMoniker": "D:\\ki2nam3\\API\\Natours\\Natours\\Views\\Home\\About.cshtml",
               "RelativeDocumentMoniker": "Natours\\Views\\Home\\About.cshtml",
@@ -94,7 +110,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Privacy.cshtml",
               "DocumentMoniker": "D:\\ki2nam3\\API\\Natours\\Natours\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "Natours\\Views\\Home\\Privacy.cshtml",
@@ -106,7 +122,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\ki2nam3\\API\\Natours\\Natours\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Natours\\Views\\Home\\Index.cshtml",
@@ -124,7 +140,7 @@
               "RelativeDocumentMoniker": "Natours\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "D:\\ki2nam3\\API\\Natours\\Natours\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Natours\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAALUAAAAAAAAAAAAAwMgAAAAfAAAA",
+              "ViewState": "AQIAAJMAAAAAAAAAAAAAALkAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-04-13T15:42:23.616Z",
               "EditorCaption": ""
@@ -137,7 +153,7 @@
               "RelativeDocumentMoniker": "Natours\\Controllers\\HomeController.cs",
               "ToolTip": "D:\\ki2nam3\\API\\Natours\\Natours\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Natours\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADEAAABcAAAA",
+              "ViewState": "AQIAACEAAAAAAAAAAAAmwDAAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-13T15:24:09.285Z"
             }
