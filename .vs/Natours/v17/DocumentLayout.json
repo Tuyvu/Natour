@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "D:\\ki2nam3\\API\\Natours\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6BB0606E-541F-49D3-AA50-08AE5D23DCFE}|Natours\\Natours.csproj|d:\\ki2nam3\\api\\natours\\natours\\views\\home\\weather.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BB0606E-541F-49D3-AA50-08AE5D23DCFE}|Natours\\Natours.csproj|solutionrelative:natours\\views\\home\\weather.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB0606E-541F-49D3-AA50-08AE5D23DCFE}|Natours\\Natours.csproj|d:\\ki2nam3\\api\\natours\\natours\\views\\home\\hotel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BB0606E-541F-49D3-AA50-08AE5D23DCFE}|Natours\\Natours.csproj|solutionrelative:natours\\views\\home\\hotel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB0606E-541F-49D3-AA50-08AE5D23DCFE}|Natours\\Natours.csproj|d:\\ki2nam3\\api\\natours\\natours\\views\\home\\tour.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BB0606E-541F-49D3-AA50-08AE5D23DCFE}|Natours\\Natours.csproj|solutionrelative:natours\\views\\home\\tour.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BB0606E-541F-49D3-AA50-08AE5D23DCFE}|Natours\\Natours.csproj|d:\\ki2nam3\\api\\natours\\natours\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BB0606E-541F-49D3-AA50-08AE5D23DCFE}|Natours\\Natours.csproj|solutionrelative:natours\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6BB0606E-541F-49D3-AA50-08AE5D23DCFE}|Natours\\Natours.csproj|d:\\ki2nam3\\api\\natours\\natours\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{6BB0606E-541F-49D3-AA50-08AE5D23DCFE}|Natours\\Natours.csproj|solutionrelative:natours\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -21,10 +37,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{6BB0606E-541F-49D3-AA50-08AE5D23DCFE}|Natours\\Natours.csproj|d:\\ki2nam3\\api\\natours\\natours\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6BB0606E-541F-49D3-AA50-08AE5D23DCFE}|Natours\\Natours.csproj|solutionrelative:natours\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6BB0606E-541F-49D3-AA50-08AE5D23DCFE}|Natours\\Natours.csproj|d:\\ki2nam3\\api\\natours\\natours\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6BB0606E-541F-49D3-AA50-08AE5D23DCFE}|Natours\\Natours.csproj|solutionrelative:natours\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6BB0606E-541F-49D3-AA50-08AE5D23DCFE}|Natours\\Natours.csproj|d:\\ki2nam3\\api\\natours\\natours\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -46,23 +58,61 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Hotel.cshtml",
+              "DocumentMoniker": "D:\\ki2nam3\\API\\Natours\\Natours\\Views\\Home\\Hotel.cshtml",
+              "RelativeDocumentMoniker": "Natours\\Views\\Home\\Hotel.cshtml",
+              "ToolTip": "D:\\ki2nam3\\API\\Natours\\Natours\\Views\\Home\\Hotel.cshtml",
+              "RelativeToolTip": "Natours\\Views\\Home\\Hotel.cshtml",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAACoAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-19T10:53:40.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Tour.cshtml",
+              "DocumentMoniker": "D:\\ki2nam3\\API\\Natours\\Natours\\Views\\Home\\Tour.cshtml",
+              "RelativeDocumentMoniker": "Natours\\Views\\Home\\Tour.cshtml",
+              "ToolTip": "D:\\ki2nam3\\API\\Natours\\Natours\\Views\\Home\\Tour.cshtml",
+              "RelativeToolTip": "Natours\\Views\\Home\\Tour.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-19T01:00:34.637Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Weather.cshtml",
+              "DocumentMoniker": "D:\\ki2nam3\\API\\Natours\\Natours\\Views\\Home\\Weather.cshtml",
+              "RelativeDocumentMoniker": "Natours\\Views\\Home\\Weather.cshtml",
+              "ToolTip": "D:\\ki2nam3\\API\\Natours\\Natours\\Views\\Home\\Weather.cshtml",
+              "RelativeToolTip": "Natours\\Views\\Home\\Weather.cshtml",
+              "ViewState": "AQIAAF0AAAAAAAAAAAAAAGYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-19T00:49:18.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Profile.cshtml",
               "DocumentMoniker": "D:\\ki2nam3\\API\\Natours\\Natours\\Views\\Home\\Profile.cshtml",
               "RelativeDocumentMoniker": "Natours\\Views\\Home\\Profile.cshtml",
               "ToolTip": "D:\\ki2nam3\\API\\Natours\\Natours\\Views\\Home\\Profile.cshtml",
               "RelativeToolTip": "Natours\\Views\\Home\\Profile.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAA0AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-04-17T01:13:00.888Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\ki2nam3\\API\\Natours\\Natours\\Program.cs",
               "RelativeDocumentMoniker": "Natours\\Program.cs",
@@ -74,7 +124,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Login.cshtml",
               "DocumentMoniker": "D:\\ki2nam3\\API\\Natours\\Natours\\Views\\Home\\Login.cshtml",
               "RelativeDocumentMoniker": "Natours\\Views\\Home\\Login.cshtml",
@@ -86,19 +136,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "Signup.cshtml",
               "DocumentMoniker": "D:\\ki2nam3\\API\\Natours\\Natours\\Views\\Home\\Signup.cshtml",
               "RelativeDocumentMoniker": "Natours\\Views\\Home\\Signup.cshtml",
               "ToolTip": "D:\\ki2nam3\\API\\Natours\\Natours\\Views\\Home\\Signup.cshtml",
               "RelativeToolTip": "Natours\\Views\\Home\\Signup.cshtml",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAADUAAAAEAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-04-16T06:48:26.23Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "About.cshtml",
               "DocumentMoniker": "D:\\ki2nam3\\API\\Natours\\Natours\\Views\\Home\\About.cshtml",
               "RelativeDocumentMoniker": "Natours\\Views\\Home\\About.cshtml",
@@ -110,7 +160,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "Privacy.cshtml",
               "DocumentMoniker": "D:\\ki2nam3\\API\\Natours\\Natours\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "Natours\\Views\\Home\\Privacy.cshtml",
@@ -122,7 +172,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\ki2nam3\\API\\Natours\\Natours\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Natours\\Views\\Home\\Index.cshtml",
@@ -134,26 +184,25 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\ki2nam3\\API\\Natours\\Natours\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Natours\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "D:\\ki2nam3\\API\\Natours\\Natours\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Natours\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAJMAAAAAAAAAAAAAALkAAAAbAAAA",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAAAGMAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-13T15:42:23.616Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-13T15:42:23.616Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "HomeController.cs",
               "DocumentMoniker": "D:\\ki2nam3\\API\\Natours\\Natours\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Natours\\Controllers\\HomeController.cs",
               "ToolTip": "D:\\ki2nam3\\API\\Natours\\Natours\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Natours\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAACEAAAAAAAAAAAAmwDAAAAAgAAAA",
+              "ViewState": "AQIAABIAAAAAAAAAAAAowBwAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-13T15:24:09.285Z"
             }

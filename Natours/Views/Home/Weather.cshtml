@@ -109,7 +109,7 @@
             navigator.geolocation.getCurrentPosition((position) => {
                 let lon = position.coords.longitude;
                 let lat = position.coords.latitude;
-                const url = `http://api.openweathermap.org/data/2.5/weather?lat=${lat}&` + `lon=${lon}&appid=${apikey}`;
+                const url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&` + `lon=${lon}&appid=${apikey}`;
                 fetch(url).then((res) => {
                     return res.json();
                 }).then((data) => {
@@ -122,7 +122,7 @@
 
     function searchByCity() {
         var place = document.getElementById('input').value;
-        var urlsearch = `http://api.openweathermap.org/data/2.5/weather?q=${place}&` + `appid=${apikey}`;
+        var urlsearch = `https://api.openweathermap.org/data/2.5/weather?q=${place}&` + `appid=${apikey}`;
         fetch(urlsearch).then((res) => {
             return res.json();
         }).then((data) => {
@@ -133,7 +133,7 @@
 
     function weatherReport(data) {
 
-        var urlcast = `http://api.openweathermap.org/data/2.5/forecast?q=${data.name}&` + `appid=${apikey}`;
+        var urlcast = `https://api.openweathermap.org/data/2.5/forecast?q=${data.name}&` + `appid=${apikey}`;
 
         fetch(urlcast).then((res) => {
             return res.json();
@@ -141,18 +141,19 @@
             hourForecast(forecast);
             dayForecast(forecast)
             let temp = Math.floor(data.main.temp - 273)
+            var mainElement = document.querySelector('.weatherapp');
             if (temp > 25) {
-                document.body.classList.add('hot');
+                mainElement.classList.add('hot');
+                mainElement.classList.remove('cold');
+                mainElement.classList.remove('warm');
             } else if (temp < 15) {
-                document.body.classList.remove('hot');
-
-                document.body.classList.remove('cold');
-
-
+                mainElement.classList.remove('hot');
+                mainElement.classList.remove('warm');
+                mainElement.classList.add('cold');
             } else {
-                document.body.classList.remove('hot');
-                document.body.classList.remove('cold');
-                document.body.classList.add('warm');
+                mainElement.classList.remove('hot');
+                mainElement.classList.remove('cold');
+                mainElement.classList.add('warm');
             }
             document.getElementById('city').innerText = data.name + ', ' + data.sys.country;
 
@@ -161,7 +162,7 @@
             document.getElementById('clouds').innerText = data.weather[0].description;
 
             let icon1 = data.weather[0].icon;
-            let iconurl = "http://api.openweathermap.org/img/w/" + icon1 + ".png";
+            let iconurl = "https://api.openweathermap.org/img/w/" + icon1 + ".png";
             document.getElementById('img').src = iconurl
         })
 

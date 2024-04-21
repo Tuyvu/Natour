@@ -28,7 +28,10 @@
                         <li class="nav-item">
 							<a class="nav-link" asp-controller="Home" asp-action="Weather">Weather</a>
                         </li>
-                        <li class="nav-item dropdown">
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="Home" asp-action="Tour">Tour</a>
+                        </li>
+                        @* <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
 								Tour
                             </a>
@@ -38,7 +41,7 @@
                                 <li><hr class="dropdown-divider"></li>
                                 <li><a class="dropdown-item" href="#">Something else here</a></li>
                             </ul>
-                        </li>
+                        </li> *@
                         <li class="nav-item">
 							<a class="nav-link" asp-controller="Home" asp-action="Hotel" tabindex="-1">Hotel</a>
                         </li>
@@ -124,7 +127,7 @@
             <div class="modal-content">
                 <div class="modal-header bg-primary text-white">
                     <h5 class="modal-title" id="profileModalLabel">David Williams Profile</h5>
-                    <button type="button" class="close text-white" data-dismiss="modal" aria-label="Close">
+                    <button type="button" class="close text-black" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
