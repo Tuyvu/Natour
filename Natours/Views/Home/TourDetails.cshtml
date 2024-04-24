@@ -1,0 +1,151 @@
+﻿<div class="modal" id="myModal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <!-- Modal Header -->
+            <div class="modal-header">
+                <h4 class="modal-title">Modal Heading</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <!-- Modal body -->
+            <div class="modal-body">
+                <!-- Đoạn HTML đã được thêm vào đây -->
+                <div class="">
+                    <h2 id="tripOverview" class="d-none d-lg-block"></h2>
+                    <h3>Thông tin liên lạc</h3>
+                    <div class="customer-contact mb-3">
+                        <form class="customer-contact-inner" action="#" method="get" id="form">
+                            <div class="name">
+                                <label>Họ và Tên <b>*</b></label>
+                                <input autocomplete="off" type="text" class="form-control" name="fullName" value="">
+                                <div class="errorform error-notes">Vui lòng nhập thông tin</div>
+                            </div>
+                            <div class="mail">
+                                <label>Email <b>*</b></label>
+                                <input type="email" class="form-control" name="email" value="">
+                                <div class="errorform error-notes">Vui lòng nhập thông tin</div>
+                            </div>
+                            <div class="SDT">
+                                <label>Số điện thoại <b>*</b></label>
+                                <input type="text" class="form-control" name="SDT" value="">
+                                <div class="errorform error-notes">Vui lòng nhập thông tin</div>
+                            </div>
+                            <div class="SoNguoi">
+                                <label>Số người <b>*</b></label>
+                                <input type="number" class="form-control" name="SoNguoi" value="">
+                                <div class="errorform error-notes">Vui lòng nhập thông tin</div>
+                            </div>
+                            <div class="addess">
+                                <label>Địa chỉ</label>
+                                <input type="text" class="form-control" name="address" value="">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="mb-4">
+                        <div class="form-check checkbox-input-search d-inline-flex  align-items-center">
+                            <input class="form-check-input me-3" type="radio" id="radSupport" name="input-list-customer" value="no">
+                            <div class="col-11">
+                                <label class="form-check-label mt-1 small">Tôi cần được nhân viên tư vấn Vietravel trợ giúp nhập thông tin đăng ký dịch vụ</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="customer-save">
+                        <h3>Quý khách có ghi chú lưu ý gì, hãy nói với chúng tôi !</h3>
+                        <div class="customer-save-inner">
+                            <p>Ghi chú thêm</p>
+                            <textarea class="form-control" cols="20" name="note" placeholder="Vui lòng nhập nội dung lời nhắn bằng tiếng Anh hoặc tiếng Việt" rows="5"></textarea>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal footer -->
+            <div class="modal-footer">
+                <button id="btnSend" type="button" class="btn btn-primary">Send</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="tour_details_containter">
+    <div class="title_image">
+        <i class="fa fa-image"></i>
+        HÌNH ẢNH
+    </div>
+</div>
+
+
+<script>
+    var nametour;
+    var gia;
+    var matua;
+    var totalPrice;
+    const tourDetailsContainer = document.querySelector('.tour_details_containter');
+    let id = '@ViewBag.id';
+
+    const getTourById = async function (id) {
+        const response = await fetch("http://127.0.0.1:5000/kh/getallTourfindid/" + id);
+        const tour = await response.json();
+        let html = `
+                    <img class="image" src="IMAGE"/>
+                    DETAILS
+                    `;
+        let priceHTML = `<div class="price_details_container">
+                    <i class="fa fa-money"></i>
+                    <p style="margin-right:20px;">PRICE</p>
+                    <button id="btndat" style="margin-left:700px;" class="order_button">ĐẶT NGAY</button>
+                </div>
+                `
+        priceHTML = priceHTML.replace("PRICE", tour[0].Gia);
+        gia = tour[0].Gia;
+        matua = tour[0].MaTour;
+        html = html.replace("IMAGE", tour[0].HinhAnh);
+        html = html.replace("DETAILS", tour[0].ChiTietTour);
+        nametour = tour[0].TenTour;
+        var tripOverview = document.getElementById("tripOverview");
+        tripOverview.textContent = tripOverview.textContent + " " + nametour;
+        tourDetailsContainer.insertAdjacentHTML("beforeend", html);
+        tourDetailsContainer.insertAdjacentHTML("beforeend", priceHTML);
+    }
+
+    getTourById(id);
+
+    // Tính tổng tiền
+    function calculateTotal() {
+        var numberOfPeople = document.querySelector('input[name="SoNguoi"]').value;
+        if (typeof gia !== 'undefined') {
+            var giaWithoutCurrency = gia.replace(/[^\d]/g, '');
+        }
+        totalPrice = parseInt(giaWithoutCurrency) * parseInt(numberOfPeople);
+
+        // Hiển thị tổng tiền
+        var totalElement = document.querySelector('.modal-body .total-price');
+        if (!totalElement) {
+            totalElement = document.createElement('p');
+            totalElement.classList.add('total-price');
+            totalElement.setAttribute('id', 'total-price');
+            document.querySelector('.modal-body').appendChild(totalElement);
+        }
+        if (totalPrice)
+        totalElement.textContent = "Tổng tiền: " + totalPrice+ "đ";
+    }
+    document.addEventListener("DOMContentLoaded", function () {
+        calculateTotal();
+    });
+    document.querySelector('input[name="SoNguoi"]').addEventListener('input', function () {
+        calculateTotal();
+    });
+</script>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        var modal = document.getElementById("myModal");
+        var closeButton = modal.querySelector(".close");
+        closeButton.addEventListener("click", function () {
+            modal.style.display = "none";
+        });
+        window.addEventListener("click", function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        });
+    });
+
+</script>
+

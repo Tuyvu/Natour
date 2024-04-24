@@ -30,7 +30,13 @@ namespace Natours.Controllers
         {
             return View();
         }
-		public IActionResult Weather()
+       
+        public IActionResult TourDetails(String id)
+        {
+            ViewBag.id = id;
+            return View();
+        }
+        public IActionResult Weather()
 		{
 			return View();
 		}

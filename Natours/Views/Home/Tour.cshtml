@@ -1,37 +1,71 @@
-﻿<div id="contact-box" style="display: inline-block; width: 80%;" class="fancybox-content">
-	<div class="container-fluid">
-		<div class="row">
-			<form data-request="onSubmitContactForm" data-request-validate="" data-request-flash="" class="form" action="post">
-				<div class="col-md-12">
-					<h4><span>Contact Us For Price: </span> <span id="contact-box-name">HOI AN ECO &amp; CULINARY TOUR</span></h4>
-				</div>
-				<div class="col-md-6">
-					<div class="form-group">
-						<label for="name">Your Name: <span data-validate-for="name" class="text-danger"></span></label>
-						<input type="text" name="name" placeholder="Type your name" class="form-control">
-					</div>
-					<div class="form-group">
-						<label for="email">Email: <span data-validate-for="email" class="text-danger"></span></label>
-						<input type="text" name="email" placeholder="Type your email" class="form-control">
-					</div>
-					<div class="form-group">
-						<label for="phone">Phone:</label>
-						<input type="text" name="phone" placeholder="Type your phone" class="form-control">
-					</div>
-					<div class="form-group">
-						<label for="content">Content/Note</label>
-						<textarea name="content" id="content" rows="3" class="form-control"></textarea>
-						<input type="hidden" name="tour" id="contact-box-tour" value="HOI AN ECO &amp; CULINARY TOUR">
-					</div>
-				</div>
-				<div class="col-md-6">
-					<img id="contact-box-image" src="https://triptovietnam.com.vn/storage/app/uploads/public/608/662/3f9/thumb_1609_600_400_0_0_crop.webp" alt="">
-				</div>
-				<div class="col-md-12 text-center">
-					<button data-attach-loading="" id="sendcontact" class="btn btn-warning">Send</button>
-				</div>
-			</form>
-		</div>
-	</div>
-	<button type="button" data-fancybox-close="" class="fancybox-button fancybox-close-small" title="Close"><svg xmlns="http://www.w3.org/2000/svg" version="1" viewBox="0 0 24 24"><path d="M13 12l5-5-1-1-5 5-5-5-1 1 5 5-5 5 1 1 5-5 5 5 1-1z"></path></svg></button>
-</div>
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Page Title</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/css/tour.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="main_image">
+            <img src="https://benthanhtourist.com/uploads/images/banner/5bab32eb357ff.jpg" class="img-fluid" alt="Main Image">
+        </div>
+
+        <div class="mx-auto natours_display_tours">
+
+            <!-- Tours will be dynamically inserted here -->
+        </div>
+    </div>
+
+    <script>
+        const getAllCustomers = async function () {
+            const toursContainer = document.querySelector(".natours_display_tours");
+            const response = await fetch("http://127.0.0.1:5000/kh/getallTour").catch(() => console.log("Error"));
+            const customers = await response.json();
+            console.log(customers);
+            for (let i = 0; i < customers.length; i++) {
+                let html = `<div class="col-md-6 tour_item">
+                                           <img class="card-img-top img_item" src="TOURIMG" tourId="KEY" />
+                                    <div class="card-body tour_content">
+                                        <h3 class="card-title title">TOURTITLE</h3>
+                                        <div class="tour_id_holder">
+                                            <p style="margin-right:10px;">Mã Tour:</p>
+                                            <p class="tour_id">TOURID</p>
+                                        </div>
+                                        <div class="tour_date_holder">
+                                            <p style="margin-right:20px;">TOURDATE</p>
+                                            <p style="margin-right:10px;">Số chỗ còn nhận:</p>
+                                            <p>20</p>
+                                        </div>
+                                        <div class="tour_item_price">
+                                            <p class="card-text item_price">TOURPRICE</p>
+                                            <button class="btn btn-primary order_button">ĐẶT NGAY</button>
+                                        </div>
+                                    </div>
+                                </div>`;
+                html = html.replace("TOURTITLE", customers[i].TenTour);
+                html = html.replace("TOURPRICE", customers[i].Gia);
+                html = html.replace("TOURID", customers[i].MaTour);
+                html = html.replace("KEY", customers[i].MaTour);
+                html = html.replace("TOURIMG", customers[i].HinhAnh);
+
+                const options = { month: "long", day: "numeric", year: "numeric" };
+                const longDate = new Date(customers[i].TuNgay).toLocaleDateString("en-GB", options);
+                html = html.replace("TOURDATE", longDate);
+                toursContainer.insertAdjacentHTML("beforeend", html);
+
+            }
+            const items = document.querySelectorAll(".img_item");
+            items.forEach(item => item.addEventListener("click", () => {
+                let id = item.attributes.getNamedItem("tourId").value
+                window.location.href = "https://localhost:7106/Home/TourDetails/" + id;
+            }));
+        }
+        getAllCustomers();
+    </script>
+
+</body>
+</html>

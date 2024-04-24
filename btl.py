@@ -1,5 +1,6 @@
 import flask
 import pyodbc
+from datetime import datetime
 from flask_cors import CORS
 
 app=flask.Flask(__name__)
@@ -87,8 +88,9 @@ def findMKH():
         return resp
     except Exception as e:
         print(e)
+
 @app.route("/kh/getallTour/<name>",methods={'GET'})
-def getAllKH(name):
+def getAllfindKH(name):
     try:
         cusor=conn.cursor()
         cusor.execute("SELECT * FROM Tour WHERE TenTour LIKE ?", ('%' + name + '%'))
@@ -104,6 +106,63 @@ def getAllKH(name):
         return resp
     except Exception as e:
         print(e)
+@app.route("/kh/getallTour",methods={'GET'})
+def getAllKH():
+    try:
+        cusor=conn.cursor()
+        cusor.execute("SELECT * FROM Tour")
+        result=[]
+        keys=[]
+        for i in cusor.description:
+            keys.append(i[0])
+        for val in cusor.fetchall():
+            result.append(dict(zip(keys,val)))
+        print(result)
+        resp=flask.jsonify(result)
+        resp.status_code=200
+        return resp
+    except Exception as e:
+        print(e)
 
+@app.route("/kh/getallTourfindid/<id>",methods={'GET'})
+def getAllfindTour(id):
+    try:
+        cusor=conn.cursor()
+        print(id)
+        cusor.execute("SELECT * FROM Tour WHERE MaTour = ?", (id))
+        
+        result=[]
+        keys=[]
+        for i in cusor.description:
+            keys.append(i[0])
+        for val in cusor.fetchall():
+            result.append(dict(zip(keys,val)))
+        print(result)
+        resp=flask.jsonify(result)
+        resp.status_code=200
+        return resp
+    except Exception as e:
+        print(e)
+@app.route("/kh/addOder", methods=['POST'])
+def addOD():
+    try:
+        tk = flask.request.json.get("email")
+        mt = flask.request.json.get("MaTour")
+        sl = flask.request.json.get("SoNguoi")
+        TT = flask.request.json.get("TT")
+        current_time = datetime.now()
+        numbers_only = ''.join(filter(str.isdigit, str(current_time)))
+        ma = numbers_only + tk
+        time = current_time
+        cursor = conn.cursor()
+        data = (ma, tk, mt, sl, time, TT)
+        cursor.execute("INSERT INTO BangDat ([MaDat], [MaKH], [MaTour], [SoLuongNguoi], [NgayDangKy], [TongTien]) VALUES (?, ?, ?, ?, ?, ?)", data)
+        conn.commit()
+        
+        resp = flask.jsonify({"Mess": "Thêm mới thành công"})
+        resp.status_code = 200
+        return resp
+    except Exception as e:
+        print(e)
 if __name__=="__main__" :
     app.run()

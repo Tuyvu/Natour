@@ -1461,6 +1461,14 @@
       "PackagePath": "staticwebassets\\css\\themify-icons\\themify-icons.css"
     },
     {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\tour.css",
+      "PackagePath": "staticwebassets\\css\\tour.css"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\tourdetails.css",
+      "PackagePath": "staticwebassets\\css\\tourdetails.css"
+    },
+    {
       "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\css\\weather.css",
       "PackagePath": "staticwebassets\\css\\weather.css"
     },
@@ -1471,6 +1479,22 @@
     {
       "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\images\\background.jpg",
       "PackagePath": "staticwebassets\\images\\background.jpg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\images\\dulichdanang.jpg",
+      "PackagePath": "staticwebassets\\images\\dulichdanang.jpg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\images\\dulichhue.jpg",
+      "PackagePath": "staticwebassets\\images\\dulichhue.jpg"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\images\\dulichquangninh.png",
+      "PackagePath": "staticwebassets\\images\\dulichquangninh.png"
+    },
+    {
+      "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\images\\vinhphuc.jpg",
+      "PackagePath": "staticwebassets\\images\\vinhphuc.jpg"
     },
     {
       "Id": "D:\\ki2nam3\\API\\Natours\\Natours\\wwwroot\\images\\weathericon.png",

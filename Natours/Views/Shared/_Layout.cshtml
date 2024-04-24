@@ -7,6 +7,11 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
 	<link rel="stylesheet" href="~/css/themify-icons/themify-icons.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/tour.css" asp-append-version="true" />
+ 
+
+    <!--Tour details css-->
+    <link rel="stylesheet" href="~/css/tourdetails.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/Natours.styles.css" asp-append-version="true" />
 </head>
 <body>
@@ -174,13 +179,44 @@
             url: "http://127.0.0.1:5000/kh/getallTour/" + MK,
             type: "GET",
             contentType: "application/json",
-            dataType: "json", // Thay đổi thành kiểu dữ liệu json
-            complete: function (response) {
-                alert("search thành công");
-                console.log(response.responseJSON[0]); // Lấy ra phần tử đầu tiên
+            dataType: "json",
+            success: function (response) {
+                $("main.main").empty();
+                alert("Tìm kiếm thành công");
+                for (let i = 0; i < response.length; i++) {
+                    var html = `<div class=" mx-auto col-md-6 tour_item">
+                                   <img class="card-img-top img_item" src="${response[i].HinhAnh}" tourId="${response[i].MaTour}" />
+                                   <div class="card-body tour_content">
+                                       <h3 class="card-title title">${response[i].TenTour}</h3>
+                                       <div class="tour_id_holder">
+                                           <p style="margin-right:10px;">Mã Tour:</p>
+                                           <p class="tour_id">${response[i].MaTour}</p>
+                                       </div>
+                                       <div class="tour_date_holder">
+                                           <p style="margin-right:20px;">${response[i].TuNgay}</p>
+                                           <p style="margin-right:10px;">Số chỗ còn nhận:</p>
+                                           <p>20</p>
+                                       </div>
+                                       <div class="tour_item_price">
+                                           <p class="card-text item_price">${response[i].Gia}</p>
+                                           <button class="btn btn-primary order_button">ĐẶT NGAY</button>
+                                       </div>
+                                   </div>
+                               </div>`;
+                    $("main.main").append(html);
+                }
+                const items = document.querySelectorAll(".img_item");
+                items.forEach(item => item.addEventListener("click", () => {
+                    let id = item.attributes.getNamedItem("tourId").value;
+                    window.location.href = "https://localhost:7106/Home/TourDetails/" + id;
+                }));
+            },
+            error: function (xhr, status, error) {
+                alert("Đã xảy ra lỗi: " + error);
             }
         });
     }
+
 </script>
 <script>
     var x,y
@@ -235,7 +271,6 @@
 </script>
 <script>
     $(document).on("click", ".Logini", function (e) {
-
         console.log("run");
         login()
     });
@@ -248,6 +283,69 @@
             }
         });
     }
+</script>
+<script type="text/javascript">
+    $(document).on("click", ".btnRe", function (e) {
+        insertKhachHang();
+    });
+    function insertKhachHang() {
+        var MK = $("#txtMK").val();
+        var name = $("#txtKH").val();
+        var email = $("#txtEmail").val();
+        var phone = $("#txtSDT").val();
+        var id = email + phone;
+        var sendInfor = {
+            "MaKH": id,
+            "TenKH": name,
+            "SoDienThoai": phone,
+            "Email": email,
+            "MK": MK
+        };
+        $.ajax({
+            url: "http://127.0.0.1:5000/kh/add",
+            type: "POST",
+            contentType: "application/json",
+            dataType: "application/json",
+            data: JSON.stringify(sendInfor),
+            complete: function (data) {
+                alert("Thêm mới thành công");
+                console.log(data);
+            }
+        });
+    }
+
+</script>
+<script type="text/javascript">
+    $(document).on("click", "#btnSend", function (e) {
+        console.log("runsend")
+        var fullName = document.querySelector('input[name="fullName"]').value;
+        var email = document.querySelector('input[name="email"]').value;
+        var SDT = document.querySelector('input[name="SDT"]').value;
+        var SoNguoi = document.querySelector('input[name="SoNguoi"]').value;
+        var address = document.querySelector('input[name="address"]').value;
+        var note = document.querySelector('textarea[name="note"]').value;
+        var sendInfor = {
+            "MaTour": matua,
+            "fullName": fullName,
+            "email": email,
+            "SDT": SDT,
+            "SoNguoi": SoNguoi,
+            "address": address,
+            "TT": totalPrice,
+        };
+        $.ajax({
+            url: "http://127.0.0.1:5000/kh/addOder",
+            type: "POST",
+            contentType: "application/json",
+            dataType: "application/json",
+            data: JSON.stringify(sendInfor),
+            complete: function (data) {
+                alert("Thêm mới thành công");
+                var modal = document.getElementById("myModal");
+                modal.style.display = "none";
+            }
+        });
+    });
 </script>
 <script type="text/javascript">
     $(document).on("click", ".btnRe", function (e) {
@@ -330,5 +428,14 @@
             }
         });
     }
-</script>
 
+</script>
+<script>
+
+    $(document).on("click", "#btndat", function (e) {
+        btndat.addEventListener("click", function () {
+            var modal = document.getElementById("myModal");
+            modal.style.display = "block";
+        });
+    });
+</script>

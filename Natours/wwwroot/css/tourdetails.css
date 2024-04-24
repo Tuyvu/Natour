@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.tour_details_containter {
+    width: 1000px;
+    padding: 20px;
+    font-size: 20px;
+    position: relative;
+    left: 20%;
+    margin-bottom: 10%;
+    margin-top: 3%;
+}
+
+.details {
+}
+
+.image {
+    width: 1000px;
+    height: 500px;
+    margin-bottom: 5%;
+}
+
+.title_image {
+    width: 1000px;
+    background-color: rgb(99, 230, 190);
+    padding: 10px;
+}
+
+.price_details_container {
+    width: 1000px;
+    background-color: rgb(99, 230, 190);
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.fa-money {
+    margin-right: 20px;
+    padding: 10px;
+    margin-left: 10px;
+}

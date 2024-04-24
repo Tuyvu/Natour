@@ -15,13 +15,55 @@
                 <img class="d-block w-100" src="https://triptovietnam.com.vn/storage/app/uploads/public/5d3/6b3/49d/thumb_370_1920_1080_0_0_crop.jpg" alt="Third slide">
             </div>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
     </div>
-  
+    <div class="mx-auto natours_display_tours">
+
+        <!-- Tours will be dynamically inserted here -->
+    </div>
+</div>
+    <script>
+        const getAllCustomers = async function () {
+            const toursContainer = document.querySelector(".natours_display_tours");
+            const response = await fetch("http://127.0.0.1:5000/kh/getallTour").catch(() => console.log("Error"));
+            const customers = await response.json();
+            console.log(customers);
+            for (let i = 0; i < customers.length; i++) {
+                let html = `<div class="mx-auto col-md-6 tour_item">
+                                                   <img class="card-img-top img_item" src="TOURIMG" tourId="KEY" />
+                                            <div class="card-body tour_content">
+                                                <h3 class="card-title title">TOURTITLE</h3>
+                                                <div class="tour_id_holder">
+                                                    <p style="margin-right:10px;">Mã Tour:</p>
+                                                    <p class="tour_id">TOURID</p>
+                                                </div>
+                                                <div class="tour_date_holder">
+                                                    <p style="margin-right:20px;">TOURDATE</p>
+                                                    <p style="margin-right:10px;">Số chỗ còn nhận:</p>
+                                                    <p>20</p>
+                                                </div>
+                                                <div class="tour_item_price">
+                                                    <p class="card-text item_price">TOURPRICE</p>
+                                                    <button class="btn btn-primary order_button">ĐẶT NGAY</button>
+                                                </div>
+                                            </div>
+                                        </div>`;
+                html = html.replace("TOURTITLE", customers[i].TenTour);
+                html = html.replace("TOURPRICE", customers[i].Gia);
+                html = html.replace("TOURID", customers[i].MaTour);
+                html = html.replace("KEY", customers[i].MaTour);
+                html = html.replace("TOURIMG", customers[i].HinhAnh);
+
+                const options = { month: "long", day: "numeric", year: "numeric" };
+                const longDate = new Date(customers[i].TuNgay).toLocaleDateString("en-GB", options);
+                html = html.replace("TOURDATE", longDate);
+                toursContainer.insertAdjacentHTML("beforeend", html);
+
+            }
+            const items = document.querySelectorAll(".img_item");
+            items.forEach(item => item.addEventListener("click", () => {
+                let id = item.attributes.getNamedItem("tourId").value
+                window.location.href = "https://localhost:7106/Home/TourDetails/" + id;
+            }));
+        }
+        getAllCustomers();
+    </script>

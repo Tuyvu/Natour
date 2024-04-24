@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.img_item {
+    height: 250px;
+    width: 300px;
+    margin-right: 20px;
+    border: none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    cursor: pointer;
+}
+
+.tour_item {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.tour_id_holder {
+    display: flex;
+    flex-direction: row;
+}
+
+.tour_date_holder {
+    display: flex;
+    flex-direction: row;
+}
+
+.natours_display_tours {
+    left: 20%;
+    margin-top: 15px
+}
+
+.order_button {
+    border: none;
+    background-color: yellow;
+    padding: 10px;
+    color: white;
+}
+
+    .order_button:hover {
+        color: black;
+    }
+
+.tour_item_price {
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: gray;
+    padding: 10px;
+}
